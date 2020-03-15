@@ -9,7 +9,7 @@ export default function SignUp() {
       <img src={logo} alt="gobarber" />
 
       <form>
-        <input type="text" placeholder="Home completo" />
+        <input type="text" placeholder="Nome completo" />
         <input type="email" placeholder="Seu e-mail" />
         <input type="password" placeholder="Sua senha secreta" />
 

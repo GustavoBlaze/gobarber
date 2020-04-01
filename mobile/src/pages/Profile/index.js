@@ -12,9 +12,11 @@ import {
   Form,
   FormInput,
   SubmitButton,
+  LogoutButton,
 } from './styles';
 
 import { updateProfileRequest } from '~/store/modules/user/actions';
+import { signOut } from '~/store/modules/auth/actions';
 
 export default function Profile() {
   const dispatch = useDispatch();
@@ -36,6 +38,7 @@ export default function Profile() {
     setPassword('');
     setConfirmPassword('');
   }, [profile]);
+
   function handleSubmit() {
     dispatch(
       updateProfileRequest({
@@ -48,6 +51,9 @@ export default function Profile() {
     );
   }
 
+  function handleLogout() {
+    dispatch(signOut());
+  }
   return (
     <Background>
       <Container>
@@ -112,6 +118,7 @@ export default function Profile() {
           />
 
           <SubmitButton onPress={handleSubmit}>Atualizar Perfil</SubmitButton>
+          <LogoutButton onPress={handleLogout}>Sair do GoBarber</LogoutButton>
         </Form>
       </Container>
     </Background>

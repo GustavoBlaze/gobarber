@@ -3,6 +3,7 @@ import { Alert } from 'react-native';
 import { takeLatest, call, put, all } from 'redux-saga/effects';
 
 import api from '~/services/api';
+import navigation from '~/services/navigation';
 
 import { signInSuccess, signFailure } from './actions';
 
@@ -47,7 +48,7 @@ export function* signUp({ payload }) {
       password,
     });
 
-    // history.push('/');
+    navigation.navigate('SignIn');
   } catch (err) {
     Alert.alert(
       'Falha no cadastro',

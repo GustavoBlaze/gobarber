@@ -46,7 +46,7 @@ Appointment.propTypes = {
     provider: PropTypes.shape({
       avatar: PropTypes.shape({
         url: PropTypes.string.isRequired,
-      }).isRequired,
+      }),
       name: PropTypes.string.isRequired,
     }),
     cancelable: PropTypes.bool.isRequired,

@@ -28,7 +28,7 @@ A aplicação em ReactJS são para os prestadores se cadastrarem e visualizarem 
 1. ``git clone https://github.com/GustavoBlaze/gobarber.git``
 2. ``cd gobarber``
 
-### :rocket: Iniciando o backend
+### :rocket: Iniciando com o backend
 1. ``cd backend``
 2. ``yarn``
 3. ``yarn dev``

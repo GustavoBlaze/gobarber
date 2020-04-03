@@ -14,7 +14,7 @@
 </h1>
 
 
-## 📜 Sobre
+### 📜 Sobre
 Este é um projeto de um serviço de agendamento para profissionais de beleza, que une o prestador de serviço ao consumidor. Construído com as tecnologias mais populares, este repositório contem uma API REST como backend, uma aplicação em ReactJS como frontend e um app mobile em React Native.
 
 A aplicação em ReactJS são para os prestadores se cadastrarem e visualizarem seus agendamentos. E a aplicação mobile é para os usuários se cadastrarem e realizarem agendamentos com os prestadores.

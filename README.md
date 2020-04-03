@@ -1,7 +1,7 @@
 <h1 align="center">
-  <img src='./img/logo.png'>
+  <p><img src='./img/logo.png'></p>
+  GoBarber
 </h1>
-<h1 align="center">GoBarber</h1>
 
 <h1 align="center">
   <img src='./img/frontend.png' width="500">
@@ -11,6 +11,7 @@
   <img src="./img/mockup_profile.png" width="200">
     <img src="./img/mockup_schedule.png" width="200">
 </h1>
+
 ## 📜 Sobre
 Este é um projeto de um serviço de agendamento para profissionais de beleza, que une o prestador de serviço ao consumidor. Construído com as tecnologias mais populares, este repositório contem uma API REST como backend, uma aplicação em ReactJS como frontend e um app mobile em React Native.
 

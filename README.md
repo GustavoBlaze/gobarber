@@ -4,12 +4,13 @@
 </h1>
 
 <h1 align="center">
-  <img src='./img/frontend.png' width="500">
-</h1>
-
-<h1 align="center">
-  <img src="./img/mockup_profile.png" width="200">
+  <p align="center">
+    <img src='./img/frontend.png' width="500">
+  </p>
+  <p align="center">
+    <img src="./img/mockup_profile.png" width="200">
     <img src="./img/mockup_schedule.png" width="200">
+  </p>
 </h1>
 
 ## 📜 Sobre

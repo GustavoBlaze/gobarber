@@ -51,3 +51,6 @@ A aplicação em ReactJS são para os prestadores se cadastrarem e visualizarem 
 - 💅 **Styled Components** - Biblioteca Javascript pra estilizar componentes.
 - 🔁 **Redux** - Biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo.
 - 🔂 **Redux Saga** - Biblioteca Javascript que torna os efeitos colaterais do aplicativo mais faceis de gerenciar.
+
+<hr>
+<p align="center"> com 💜 Luiz Gustavo </p>

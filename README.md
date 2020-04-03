@@ -23,25 +23,25 @@ A aplicação em ReactJS são para os pret
 3. Um dispositivo ou emulador **Android** conectado ao computador
 
 ### :rocket: Começando
-``1. git clone https://github.com/GustavoBlaze/gobarber.git``
-``2. cd gobarber``
+1. ``git clone https://github.com/GustavoBlaze/gobarber.git``
+2. ``cd gobarber``
 
 ### :rocket: Iniciando o backend
-``1. cd backend``
-``2. yarn``
-``3. yarn dev``
+1. ``cd backend``
+2. ``yarn``
+3. ``yarn dev``
 
 ### 💻 Iniciando com o Front-end 
-``1. cd frontend``
-``2. yarn``
-``3. yarn start``
+1. ``cd frontend``
+2. ``yarn``
+3. ``yarn start``
 
 ### 📱Iniciando com o Mobile (Apenas Android)
-``1. cd mobile``
-``2. yarn``
-``3. adb reverse tcp:3333 tcp:3333``
-``4. react-native start``
-``5. react-native run-android``
+1. ``cd mobile``
+2. ``yarn``
+3. ``adb reverse tcp:3333 tcp:3333``
+4. ``react-native start``
+5. ``react-native run-android``
 
 ### 🧰  Ferramentas utilizadas
 - ⚛️ **ReactJs** - Biblioteca Javascript para criar interfaces de usuário.

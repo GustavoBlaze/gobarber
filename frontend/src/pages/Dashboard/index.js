@@ -31,9 +31,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     async function loadSchedule() {
-      const response = await api.get('schedule', {
-        params: { date },
-      });
+      const response = await api.get('schedule', { params: { date } });
 
       const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 

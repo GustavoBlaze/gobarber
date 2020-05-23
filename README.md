@@ -1,6 +1,7 @@
 <h1 align="center">
   <p><img src='./img/logo.png'></p>
   GoBarber
+  <p>:bearded_person: Um serviço de agendamento que conecta prestadores de serviços de beleza e clientes</p>
 </h1>
 
 <h1 align="center">
